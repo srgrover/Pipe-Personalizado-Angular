@@ -1,12 +1,13 @@
-import { Component } from '@angular/core';
+import { Comment } from '../comments.component';
+import { ReplyButtonComponent } from './../../../Shared/Components/reply-button/reply-button.component';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-comment',
   standalone: true,
-  imports: [],
+  imports: [ReplyButtonComponent],
   templateUrl: './comment.component.html',
-  styleUrl: './comment.component.scss'
 })
 export class CommentComponent {
-
+  @Input() comment!: Comment;
 }

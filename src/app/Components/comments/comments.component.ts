@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CommentComponent } from './comment/comment.component';
 
 export interface Comment {
   id: number;
@@ -11,7 +12,7 @@ export interface Comment {
 @Component({
   selector: 'app-comments',
   standalone: true,
-  imports: [],
+  imports: [CommentComponent],
   templateUrl: './comments.component.html',
 })
 export class CommentsComponent {
