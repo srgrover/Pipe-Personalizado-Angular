@@ -40,7 +40,7 @@ export class CommentsComponent {
       user: { name: 'Ron', surname: 'Weasley' },
       avatar:
         'https://i.pinimg.com/564x/59/10/e9/5910e9ae03fb7d0380bca57c1134569c.jpg',
-      date: new Date('02-01-2024'),
+      date: new Date('01-23-2024 18:08:00'),
       message:
         '¡Bueno, Harry, puedes intentar hablándoles con acento escocés! A las cartas les gusta un buen acento. Funcionó con mis ranas de chocolate una vez. 🐸🍫',
     },
